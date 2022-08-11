@@ -1,0 +1,42 @@
+Fields are separated by : and cannot include any spaces:
+
+Username OR ALL
+
+File Types: txt, csv, or json
+
+Limit the range of an integer from 0 to infinity.
+
+Skip an integer between 0 and infinity.
+
+Sorting in ascending order is -1, and sorting in descending order is 1. Otherwise, this field cannot accept else  -1 or 1
+
+Whether or not to include headers in the file, This field can be yes or no, and the files that support it are txt or csv.
+
+Explanation 1: Admin:txt:0:0:1:no
+Will export all codes created by Admin user in descending order, with no headers. in a txt file.
+
+Explanation 2: ALL:json:0:0:1
+Will export all codes from everyone in descending order, in a json file.
+
+Explanation 2: ALL:csv:0:0:1:yes
+Will export all codes from everyone with headers in descending order, in a csv file.
+
+Explanation 3: Admin
+Will export all codes from Admin, in a txt file.
+
+Explanation 4: Admin:json
+Will export all codes from Admin, in a json file.
+
+Explanation 5: ALL
+Will export all codes from everyone, in a txt file.
+
+Explanation 6: Without using the search field and leave it empty.
+Will export all codes from everyone, in a txt file.
+
+
+To begin exporting on the 15th. You must use the following Skip field, in a txt file example:
+ALL:txt:0:15:1:yes
+
+To begin exporting at 15 and only export 10 fields from there, in a csv file.
+example:
+ALL:csv:10:15:1:yes

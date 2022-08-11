@@ -1,0 +1,390 @@
+//Add Auth
+export default {
+  swagger: "2.0",
+  info: {
+    version: "1.0.0",
+    title: "BIGO API",
+    description:
+      "Every request should contain a unique tag header that is randomly generated and encrypted on the receiver using JWT with the key 21321f12edqwf23rf2312e12312r12e1. This is the only way to verify the request. The key should be kept exclusively in the receiver, not in the API. Ensure that the encrypted text is randomly generated and unique for each request, ",
+  },
+  schemes: ["https", "http"],
+  paths: {
+    "/Categories": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          404: {
+            description: "Not Found",
+          },
+          200: {
+            description: "OK",
+          },
+          403: {
+            description: "Forbidden",
+          },
+        },
+      },
+    },
+    "/SubCategories/{Category}": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "Category",
+            in: "path",
+            required: true,
+            type: "string",
+            default: "624fe2ca83b5eecccbc9a075",
+          },
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          404: {
+            description: "Not Found",
+          },
+          200: {
+            description: "OK",
+          },
+          403: {
+            description: "Forbidden",
+          },
+        },
+      },
+    },
+    "/Series/{SubCategory}": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "SubCategory",
+            in: "path",
+            required: true,
+            type: "string",
+            default: "624fed1c83b5eecccbc9a0b2",
+          },
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          404: {
+            description: "Not Found",
+          },
+          200: {
+            description: "OK",
+          },
+          403: {
+            description: "Forbidden",
+          },
+        },
+      },
+    },
+    "/Series/Episodes/{Series}": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "Series",
+            in: "path",
+            required: true,
+            type: "string",
+            default: "624fed0783b5eecccbc9a0af",
+          },
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          404: {
+            description: "Not Found",
+          },
+          200: {
+            description: "OK",
+          },
+          403: {
+            description: "Forbidden",
+          },
+        },
+      },
+    },
+    "/Sessions/Create/{EpisodeID}/{Type}": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "EpisodeID",
+            in: "path",
+            required: true,
+            type: "string",
+            description: 'This is the Series Episode || Movie || Live, "ID".',
+            default: "624ff10a83b5eecccbc9a0c4",
+          },
+          {
+            name: "Type",
+            in: "path",
+            type: "string",
+            default: "Series",
+            required: true,
+            description:
+              "We have Series || Movies || Lives, and each one generates the appropriate session for the corresponding episode || Movie || Live.",
+          },
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          404: {
+            description: "Not Found",
+          },
+          200: {
+            description: "OK",
+          },
+          403: {
+            description: "Forbidden",
+          },
+        },
+      },
+    },
+    "/Sessions/{id}": {
+      get: {
+        description: "",
+        parameters: [
+          {
+            name: "id",
+            in: "path",
+            required: true,
+            type: "string",
+            default: "62505cce7a6bc4dc956812c8",
+          },
+          {
+            name: "Range",
+            in: "header",
+            type: "string",
+            default: "0-0",
+            required: true,
+            description:
+              "The data set's range, It begins at 0-0. And keep incrementing like 0-1, 0-2, 0-3, 0-4, as required at the beginning of the request. Then you can choose to ignore this header. It's best if you fill it out!",
+          },
+          {
+            name: "MacAddress",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "00:00:00:00:00:00",
+          },
+          {
+            name: "SerialNumber",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            default: "12123124124",
+          },
+          {
+            name: "Code",
+            in: "header",
+            description:
+              "This is merely a demonstration. Please keep in mind that in the right situation, this field is dynamic. This is a field of security.",
+            required: true,
+            type: "string",
+            //Set default value
+            default: "1111111111111",
+          },
+        ],
+        responses: {
+          401: {
+            description: "Unauthorized",
+          },
+          404: {
+            description: "Not Found",
+          },
+          500: {
+            description: "Internal Server Error",
+          },
+          206: {
+            description: "Partial Content",
+            content: {
+              "video/mp4": {
+                schema: {
+                  type: "string",
+                  format: "binary",
+                },
+              },
+            },
+            200: {
+              description: "OK",
+            },
+            403: {
+              description: "Forbidden",
+            },
+          },
+        },
+      },
+    },
+  },
+};

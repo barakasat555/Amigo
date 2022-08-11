@@ -1,0 +1,40 @@
+{
+  "name": "batman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2": "pm2 start processes.json --no-daemon"
+  },
+  "author": "Ahmed Helmi",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "feedit": "^1.0.8",
+    "fs": "^0.0.1-security",
+    "geoip-country": "^4.0.115",
+    "got": "^12.0.3",
+    "growing-file": "^0.1.3",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mime-db": "^1.52.0",
+    "mongodb": "^4.5.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.2.3",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-ip": "^2.1.3",
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
+    "swagger-ui-express": "^4.3.0",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "swagger-autogen": "^2.20.8"
+  }
+}

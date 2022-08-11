@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "624f816883b5eecccbc9a053"
+  },
+  "Period": 90,
+  "Points": 0,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651378718089"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651378718089"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "626c532eb9f06d0aa096baaa"
+  },
+  "Period": 1825,
+  "Points": 0,
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651378718090"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651378718090"
+    }
+  }
+}]

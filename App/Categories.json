@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "624f6bc583b5eecccbc99ffa"
+  },
+  "Name": "Movies",
+  "Logo": "http://topten.bigo.ws/Images/6eCpiaNs5JULEXhRKymrK9AO3.jpeg",
+  "Type": "Movies",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651378708930"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651378822665"
+    }
+  },
+  "position": 2
+}]

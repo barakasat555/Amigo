@@ -1,0 +1,4375 @@
+[{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6527"
+  },
+  "Name": "Afghanistan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AF",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453672"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453672"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6528"
+  },
+  "Name": "Åland Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AX",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453673"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453673"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6529"
+  },
+  "Name": "Albania",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AL",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453674"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453674"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652a"
+  },
+  "Name": "Algeria",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DZ",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453675"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453675"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652b"
+  },
+  "Name": "American Samoa",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AS",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453677"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453676"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652c"
+  },
+  "Name": "AndorrA",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AD",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453677"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453677"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652d"
+  },
+  "Name": "Angola",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453679"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453679"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652e"
+  },
+  "Name": "Anguilla",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453680"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453680"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf652f"
+  },
+  "Name": "Antarctica",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AQ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453681"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453681"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6530"
+  },
+  "Name": "Antigua and Barbuda",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453682"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453682"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6531"
+  },
+  "Name": "Argentina",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453683"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453683"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6532"
+  },
+  "Name": "Armenia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453684"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453684"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6533"
+  },
+  "Name": "Aruba",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453685"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453685"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6534"
+  },
+  "Name": "Australia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453686"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453686"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6535"
+  },
+  "Name": "Austria",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453687"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453687"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6536"
+  },
+  "Name": "Azerbaijan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453688"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453688"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6537"
+  },
+  "Name": "Bahamas",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453689"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453689"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6538"
+  },
+  "Name": "Bahrain",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453690"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453690"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6539"
+  },
+  "Name": "Bangladesh",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453691"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453691"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653a"
+  },
+  "Name": "Barbados",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BB",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453693"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453693"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653b"
+  },
+  "Name": "Belarus",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453694"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453694"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653c"
+  },
+  "Name": "Belgium",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453695"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453695"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653d"
+  },
+  "Name": "Belize",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453696"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453696"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653e"
+  },
+  "Name": "Benin",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BJ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453697"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453697"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf653f"
+  },
+  "Name": "Bermuda",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453698"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453698"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6540"
+  },
+  "Name": "Bhutan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453699"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453699"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6541"
+  },
+  "Name": "Bolivia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453700"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453700"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6542"
+  },
+  "Name": "Bosnia and Herzegovina",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453701"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453701"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6543"
+  },
+  "Name": "Botswana",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453702"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453702"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6544"
+  },
+  "Name": "Bouvet Island",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453703"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453703"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6545"
+  },
+  "Name": "Brazil",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453704"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453704"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6546"
+  },
+  "Name": "British Indian Ocean Territory",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453706"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453706"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6547"
+  },
+  "Name": "Brunei Darussalam",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453707"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453707"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6548"
+  },
+  "Name": "Bulgaria",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453708"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453708"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6549"
+  },
+  "Name": "Burkina Faso",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453709"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453709"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654a"
+  },
+  "Name": "Burundi",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "BI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453710"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453710"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654b"
+  },
+  "Name": "Cambodia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453711"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453711"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654c"
+  },
+  "Name": "Cameroon",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453712"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453712"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654d"
+  },
+  "Name": "Canada",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453713"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453713"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654e"
+  },
+  "Name": "Cape Verde",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453714"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453714"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf654f"
+  },
+  "Name": "Cayman Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453715"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453715"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6550"
+  },
+  "Name": "Central African Republic",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453716"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453716"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6551"
+  },
+  "Name": "Chad",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453717"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453717"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6552"
+  },
+  "Name": "Chile",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453718"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453718"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6553"
+  },
+  "Name": "China",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453719"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453719"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6554"
+  },
+  "Name": "Christmas Island",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CX",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453720"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453720"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6555"
+  },
+  "Name": "Cocos (Keeling) Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453721"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453721"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6556"
+  },
+  "Name": "Colombia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453722"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453722"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6557"
+  },
+  "Name": "Comoros",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453723"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453723"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6558"
+  },
+  "Name": "Congo",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453724"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453724"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6559"
+  },
+  "Name": "Congo, The Democratic Republic of the",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453725"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453725"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655a"
+  },
+  "Name": "Cook Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453726"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453726"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655b"
+  },
+  "Name": "Costa Rica",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453727"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453727"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655c"
+  },
+  "Name": "Cote D'Ivoire",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453728"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453728"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655d"
+  },
+  "Name": "Croatia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453729"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453729"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655e"
+  },
+  "Name": "Cuba",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453730"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453730"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf655f"
+  },
+  "Name": "Cyprus",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453731"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453731"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6560"
+  },
+  "Name": "Czech Republic",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453732"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453732"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6561"
+  },
+  "Name": "Denmark",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453733"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453733"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6562"
+  },
+  "Name": "Djibouti",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DJ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453734"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453734"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6563"
+  },
+  "Name": "Dominica",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453735"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453735"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6564"
+  },
+  "Name": "Dominican Republic",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453736"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453736"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6565"
+  },
+  "Name": "Ecuador",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "EC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453737"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453737"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6566"
+  },
+  "Name": "Egypt",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "EG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453738"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453738"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6567"
+  },
+  "Name": "El Salvador",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453739"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453739"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6568"
+  },
+  "Name": "Equatorial Guinea",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GQ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453739"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453739"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6569"
+  },
+  "Name": "Eritrea",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ER",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453740"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453740"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656a"
+  },
+  "Name": "Estonia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "EE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453741"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453741"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656b"
+  },
+  "Name": "Ethiopia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ET",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453742"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453742"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656c"
+  },
+  "Name": "Falkland Islands (Malvinas)",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453743"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453743"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656d"
+  },
+  "Name": "Faroe Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453744"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453744"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656e"
+  },
+  "Name": "Fiji",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FJ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453745"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453745"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf656f"
+  },
+  "Name": "Finland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453746"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453746"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6570"
+  },
+  "Name": "France",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453747"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453747"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6571"
+  },
+  "Name": "French Guiana",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453748"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453748"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6572"
+  },
+  "Name": "French Polynesia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453749"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453749"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6573"
+  },
+  "Name": "French Southern Territories",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453750"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453750"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6574"
+  },
+  "Name": "Gabon",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453751"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453751"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6575"
+  },
+  "Name": "Gambia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453752"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453752"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6576"
+  },
+  "Name": "Georgia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453753"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453753"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6577"
+  },
+  "Name": "Germany",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "DE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453754"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453754"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6578"
+  },
+  "Name": "Ghana",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453755"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453755"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6579"
+  },
+  "Name": "Gibraltar",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453756"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453756"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657a"
+  },
+  "Name": "Greece",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453757"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453757"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657b"
+  },
+  "Name": "Greenland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453758"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453758"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657c"
+  },
+  "Name": "Grenada",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453759"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453759"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657d"
+  },
+  "Name": "Guadeloupe",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GP",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453760"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453760"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657e"
+  },
+  "Name": "Guam",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453761"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453761"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf657f"
+  },
+  "Name": "Guatemala",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453762"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453762"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6580"
+  },
+  "Name": "Guernsey",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453763"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453763"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6581"
+  },
+  "Name": "Guinea",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453764"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453764"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6582"
+  },
+  "Name": "Guinea-Bissau",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453765"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453765"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6583"
+  },
+  "Name": "Guyana",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453766"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453766"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6584"
+  },
+  "Name": "Haiti",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453767"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453767"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6585"
+  },
+  "Name": "Heard Island and Mcdonald Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453767"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453767"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6586"
+  },
+  "Name": "Holy See (Vatican City State)",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453768"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453768"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6587"
+  },
+  "Name": "Honduras",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453769"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453769"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6588"
+  },
+  "Name": "Hong Kong",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453770"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453770"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6589"
+  },
+  "Name": "Hungary",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "HU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453771"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453771"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658a"
+  },
+  "Name": "Iceland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453772"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453772"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658b"
+  },
+  "Name": "India",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453773"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658c"
+  },
+  "Name": "Indonesia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ID",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453774"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453774"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658d"
+  },
+  "Name": "Iran, Islamic Republic Of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453775"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453775"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658e"
+  },
+  "Name": "Iraq",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IQ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453776"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453776"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf658f"
+  },
+  "Name": "Ireland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453777"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453777"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6590"
+  },
+  "Name": "Isle of Man",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453778"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453778"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6591"
+  },
+  "Name": "Israel",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453779"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453779"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6592"
+  },
+  "Name": "Italy",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "IT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453780"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453780"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6593"
+  },
+  "Name": "Jamaica",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "JM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453781"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453781"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6594"
+  },
+  "Name": "Japan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "JP",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453782"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453782"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6595"
+  },
+  "Name": "Jersey",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "JE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453783"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453783"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6596"
+  },
+  "Name": "Jordan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "JO",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453784"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453784"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6597"
+  },
+  "Name": "Kazakhstan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453785"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453785"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6598"
+  },
+  "Name": "Kenya",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453786"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453786"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6599"
+  },
+  "Name": "Kiribati",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453787"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453787"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659a"
+  },
+  "Name": "Korea, Democratic People'S Republic of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KP",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453788"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453788"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659b"
+  },
+  "Name": "Korea, Republic of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453789"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453789"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659c"
+  },
+  "Name": "Kuwait",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453790"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453790"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659d"
+  },
+  "Name": "Kyrgyzstan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453791"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453791"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659e"
+  },
+  "Name": "Lao People'S Democratic Republic",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453791"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453791"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf659f"
+  },
+  "Name": "Latvia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453792"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453792"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a0"
+  },
+  "Name": "Lebanon",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LB",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453793"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453793"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a1"
+  },
+  "Name": "Lesotho",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453794"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453794"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a2"
+  },
+  "Name": "Liberia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453795"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453795"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a3"
+  },
+  "Name": "Libyan Arab Jamahiriya",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453796"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453796"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a4"
+  },
+  "Name": "Liechtenstein",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453797"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453797"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a5"
+  },
+  "Name": "Lithuania",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453798"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453798"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a6"
+  },
+  "Name": "Luxembourg",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453799"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453799"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a7"
+  },
+  "Name": "Macao",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453800"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453800"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a8"
+  },
+  "Name": "Macedonia, The Former Yugoslav Republic of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453801"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453801"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65a9"
+  },
+  "Name": "Madagascar",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453802"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453802"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65aa"
+  },
+  "Name": "Malawi",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453803"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453803"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ab"
+  },
+  "Name": "Malaysia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453804"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453804"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ac"
+  },
+  "Name": "Maldives",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453805"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453805"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ad"
+  },
+  "Name": "Mali",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ML",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453806"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453806"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ae"
+  },
+  "Name": "Malta",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453807"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453807"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65af"
+  },
+  "Name": "Marshall Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453808"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453808"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b0"
+  },
+  "Name": "Martinique",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MQ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453809"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453809"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b1"
+  },
+  "Name": "Mauritania",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453810"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453810"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b2"
+  },
+  "Name": "Mauritius",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453811"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453811"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b3"
+  },
+  "Name": "Mayotte",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "YT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453812"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453812"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b4"
+  },
+  "Name": "Mexico",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MX",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453813"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453813"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b5"
+  },
+  "Name": "Micronesia, Federated States of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "FM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453814"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453814"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b6"
+  },
+  "Name": "Moldova, Republic of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453815"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453815"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b7"
+  },
+  "Name": "Monaco",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453816"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453816"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b8"
+  },
+  "Name": "Mongolia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453817"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453817"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65b9"
+  },
+  "Name": "Montserrat",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453818"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453818"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ba"
+  },
+  "Name": "Morocco",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453819"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453819"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65bb"
+  },
+  "Name": "Mozambique",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453820"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453820"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65bc"
+  },
+  "Name": "Myanmar",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453821"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453821"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65bd"
+  },
+  "Name": "Namibia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453822"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453822"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65be"
+  },
+  "Name": "Nauru",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453823"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453823"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65bf"
+  },
+  "Name": "Nepal",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NP",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453823"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453823"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c0"
+  },
+  "Name": "Netherlands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453824"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453824"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c1"
+  },
+  "Name": "Netherlands Antilles",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453825"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453825"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c2"
+  },
+  "Name": "New Caledonia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453826"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453826"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c3"
+  },
+  "Name": "New Zealand",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453827"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453827"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c4"
+  },
+  "Name": "Nicaragua",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453828"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453828"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c5"
+  },
+  "Name": "Niger",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453829"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453829"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c6"
+  },
+  "Name": "Nigeria",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453830"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453830"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c7"
+  },
+  "Name": "Niue",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453831"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453831"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c8"
+  },
+  "Name": "Norfolk Island",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453832"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453832"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65c9"
+  },
+  "Name": "Northern Mariana Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "MP",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453833"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453833"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ca"
+  },
+  "Name": "Norway",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "NO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453834"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453834"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65cb"
+  },
+  "Name": "Oman",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "OM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453835"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453835"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65cc"
+  },
+  "Name": "Pakistan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453836"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453836"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65cd"
+  },
+  "Name": "Palau",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453837"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453837"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ce"
+  },
+  "Name": "Palestinian Territory, Occupied",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453838"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453838"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65cf"
+  },
+  "Name": "Panama",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453839"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453839"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d0"
+  },
+  "Name": "Papua New Guinea",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453840"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453840"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d1"
+  },
+  "Name": "Paraguay",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453841"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453841"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d2"
+  },
+  "Name": "Peru",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453842"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453842"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d3"
+  },
+  "Name": "Philippines",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453843"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453843"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d4"
+  },
+  "Name": "Pitcairn",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453844"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453844"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d5"
+  },
+  "Name": "Poland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453845"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453845"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d6"
+  },
+  "Name": "Portugal",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453846"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453846"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d7"
+  },
+  "Name": "Puerto Rico",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453847"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453847"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d8"
+  },
+  "Name": "Qatar",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "QA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453848"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453848"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65d9"
+  },
+  "Name": "Reunion",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "RE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453849"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453849"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65da"
+  },
+  "Name": "Romania",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "RO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453850"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453850"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65db"
+  },
+  "Name": "Russian Federation",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "RU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453851"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453851"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65dc"
+  },
+  "Name": "RWANDA",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "RW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453852"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453852"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65dd"
+  },
+  "Name": "Saint Helena",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453853"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453853"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65de"
+  },
+  "Name": "Saint Kitts and Nevis",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "KN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453854"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453854"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65df"
+  },
+  "Name": "Saint Lucia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453855"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453855"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e0"
+  },
+  "Name": "Saint Pierre and Miquelon",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "PM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453856"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453856"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e1"
+  },
+  "Name": "Saint Vincent and the Grenadines",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453857"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453857"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e2"
+  },
+  "Name": "Samoa",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "WS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453858"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453858"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e3"
+  },
+  "Name": "San Marino",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453859"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453859"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e4"
+  },
+  "Name": "Sao Tome and Principe",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ST",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453860"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453860"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e5"
+  },
+  "Name": "Saudi Arabia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453860"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453860"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e6"
+  },
+  "Name": "Senegal",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453861"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453861"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e7"
+  },
+  "Name": "Serbia and Montenegro",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453862"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453862"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e8"
+  },
+  "Name": "Seychelles",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453863"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453863"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65e9"
+  },
+  "Name": "Sierra Leone",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453864"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453864"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ea"
+  },
+  "Name": "Singapore",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453865"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453865"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65eb"
+  },
+  "Name": "Slovakia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453866"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453866"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ec"
+  },
+  "Name": "Slovenia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453867"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453867"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ed"
+  },
+  "Name": "Solomon Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SB",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453868"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453868"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ee"
+  },
+  "Name": "Somalia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453869"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453869"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ef"
+  },
+  "Name": "South Africa",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ZA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453870"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453870"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f0"
+  },
+  "Name": "South Georgia and the South Sandwich Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GS",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453871"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453871"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f1"
+  },
+  "Name": "Spain",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ES",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453872"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453872"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f2"
+  },
+  "Name": "Sri Lanka",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "LK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453873"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453873"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f3"
+  },
+  "Name": "Sudan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SD",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453874"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453874"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f4"
+  },
+  "Name": "Suriname",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453875"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453875"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f5"
+  },
+  "Name": "Svalbard and Jan Mayen",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SJ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453876"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453876"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f6"
+  },
+  "Name": "Swaziland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453877"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453877"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f7"
+  },
+  "Name": "Sweden",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453878"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453878"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f8"
+  },
+  "Name": "Switzerland",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "CH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453879"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453879"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65f9"
+  },
+  "Name": "Syrian Arab Republic",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "SY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453880"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453880"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65fa"
+  },
+  "Name": "Taiwan, Province of China",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453881"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453881"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65fb"
+  },
+  "Name": "Tajikistan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TJ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453882"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453882"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65fc"
+  },
+  "Name": "Tanzania, United Republic of",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453883"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453883"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65fd"
+  },
+  "Name": "Thailand",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453884"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453884"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65fe"
+  },
+  "Name": "Timor-Leste",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TL",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453885"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453885"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf65ff"
+  },
+  "Name": "Togo",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453886"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453886"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6600"
+  },
+  "Name": "Tokelau",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TK",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453887"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453887"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6601"
+  },
+  "Name": "Tonga",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TO",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453888"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453888"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6602"
+  },
+  "Name": "Trinidad and Tobago",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TT",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453889"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453889"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6603"
+  },
+  "Name": "Tunisia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453890"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453890"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6604"
+  },
+  "Name": "Turkey",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TR",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453891"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453891"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6605"
+  },
+  "Name": "Turkmenistan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453892"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453892"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6606"
+  },
+  "Name": "Turks and Caicos Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TC",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453893"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453893"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6607"
+  },
+  "Name": "Tuvalu",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "TV",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453894"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453894"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6608"
+  },
+  "Name": "Uganda",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "UG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453895"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453895"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6609"
+  },
+  "Name": "Ukraine",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "UA",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453896"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453896"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660a"
+  },
+  "Name": "United Arab Emirates",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "AE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453897"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453897"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660b"
+  },
+  "Name": "United Kingdom",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "GB",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453898"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453898"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660c"
+  },
+  "Name": "United States",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "US",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453899"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453899"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660d"
+  },
+  "Name": "United States Minor Outlying Islands",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "UM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453900"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453900"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660e"
+  },
+  "Name": "Uruguay",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "UY",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453901"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453901"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf660f"
+  },
+  "Name": "Uzbekistan",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "UZ",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453902"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453902"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6610"
+  },
+  "Name": "Vanuatu",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VU",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453902"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453902"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6611"
+  },
+  "Name": "Venezuela",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453903"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453903"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6612"
+  },
+  "Name": "Viet Nam",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VN",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453904"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453904"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6613"
+  },
+  "Name": "Virgin Islands, British",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VG",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453905"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453905"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6614"
+  },
+  "Name": "Virgin Islands, U.S.",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "VI",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453906"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453906"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6615"
+  },
+  "Name": "Wallis and Futuna",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "WF",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453907"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453907"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6616"
+  },
+  "Name": "Western Sahara",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "EH",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453908"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453908"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6617"
+  },
+  "Name": "Yemen",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "YE",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453909"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453909"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6618"
+  },
+  "Name": "Zambia",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ZM",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453910"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453910"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "625c90408ea9f1ca0dbf6619"
+  },
+  "Name": "Zimbabwe",
+  "Blocked": false,
+  "Clients": 0,
+  "Code": "ZW",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651999453911"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651999453911"
+    }
+  }
+}]

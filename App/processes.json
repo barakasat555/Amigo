@@ -1,0 +1,65 @@
+{
+    "apps": [
+        {
+            "name": "Backend",
+            "script": "./main.mjs",
+            "merge_logs": true,
+            "instances": InstanceNumber,
+            "max_memory_restart": "3G",
+            "env": {
+                "PORT": 3000,
+                "NODE_ENV": "production",
+                "Backup": 1,
+                "MONGODB_IP": "localhost",
+                "MONGODB_PORT": 27017,
+                "MONGODB_DB": "Main",
+                "MONGODB_USER": "admin",
+                "MONGODB_SOURCE": "admin",
+                "MONGODB_PASSWORD": "thisIsPassword",
+                "HOST": "http://thisIsAHost",
+                "ClientJWT_SECRET": "thisIsClientJWT_SECRET",
+                "AdminJWT_SECRET": "thisIsAdminJWT_SECRET"
+            }
+        },
+        {
+            "name": "LiveChecker",
+            "script": "./LiveChecker/main.mjs",
+            "merge_logs": true,
+            "instances": 1,
+            "max_memory_restart": "2G",
+            "env": {
+                "PORT": 5001,
+                "NODE_ENV": "production",
+                "MONGODB_IP": "localhost",
+                "MONGODB_PORT": 27017,
+                "MONGODB_DB": "Main",
+                "MONGODB_USER": "admin",
+                "MONGODB_SOURCE": "admin",
+                "MONGODB_PASSWORD": "thisIsPassword",
+                "HOST": "http://thisIsAHost",
+                "ClientJWT_SECRET": "thisIsClientJWT_SECRET",
+                "AdminJWT_SECRET": "thisIsAdminJWT_SECRET"
+            }
+        },
+        {
+            "name": "SocketIO",
+            "script": "./SocketIO/main.mjs",
+            "merge_logs": true,
+            "instances": 1,
+            "max_memory_restart": "2G",
+            "env": {
+                "PORT": 5002,
+                "NODE_ENV": "production",
+                "MONGODB_IP": "localhost",
+                "MONGODB_PORT": 27017,
+                "MONGODB_DB": "Main",
+                "MONGODB_USER": "admin",
+                "MONGODB_SOURCE": "admin",
+                "MONGODB_PASSWORD": "thisIsPassword",
+                "HOST": "http://thisIsAHost",
+                "ClientJWT_SECRET": "thisIsClientJWT_SECRET",
+                "AdminJWT_SECRET": "thisIsAdminJWT_SECRET"
+            }
+        }
+    ]
+}

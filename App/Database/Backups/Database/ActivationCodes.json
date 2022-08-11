@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "62607b9db51291b40b5a08b8"
+  },
+  "ClientType": "T",
+  "Code": "1111111111",
+  "Company": "Tiger",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651791697074"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "Limit": 5000,
+  "Period": 90,
+  "Points": 0,
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651443870613"
+    }
+  },
+  "isGenerate": false
+},{
+  "_id": {
+    "$oid": "62607bc0b51291b40b5a08b9"
+  },
+  "ClientType": "I",
+  "Code": "3333333333",
+  "Company": "Tiger",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443870613"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "Limit": 1000,
+  "Period": 90,
+  "Points": 0,
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651443870613"
+    }
+  },
+  "isGenerate": false
+},{
+  "_id": {
+    "$oid": "62607bdd763c4d814382082d"
+  },
+  "ClientType": "Z",
+  "Code": "2222222222",
+  "Company": "Tiger",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443870614"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "Limit": 1000,
+  "Period": 90,
+  "Points": 0,
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651443870614"
+    }
+  },
+  "isGenerate": false
+},{
+  "_id": {
+    "$oid": "62607bf3763c4d814382082e"
+  },
+  "ClientType": "M",
+  "Code": "4444444444",
+  "Company": "Tiger",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443870614"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "Limit": 1000,
+  "Period": 90,
+  "Points": 0,
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651443870614"
+    }
+  },
+  "isGenerate": false
+}]

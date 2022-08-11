@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "626c533db9f06d0aa096baab"
+  },
+  "Serial": "191026800179",
+  "Period": 1825,
+  "Points": 0,
+  "ReceiverType": "Brother",
+  "Code": "1111111111111",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651378716596"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651378716596"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "626c53e5b9f06d0aa096baaf"
+  },
+  "Serial": "191026800392",
+  "Period": 1825,
+  "Points": 0,
+  "ReceiverType": "Brother",
+  "Code": "1111111111111",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651378716597"
+    }
+  },
+  "CreatedBy": {
+    "Username": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651378716597"
+    }
+  }
+}]

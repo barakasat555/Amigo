@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "6279ceffd76fffa8229558f1"
+  },
+  "Serial": "210319450134",
+  "Period": 1825,
+  "Points": 0,
+  "ReceiverType": "Bassam",
+  "Code": "1111111111",
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1652150015325"
+    }
+  },
+  "CreatedBy": {
+    "_id": "62534a0b328e0f7889eb8e24",
+    "Username": "Admin"
+  }
+}]

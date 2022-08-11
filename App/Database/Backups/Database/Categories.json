@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "624f6bc583b5eecccbc99ffa"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443863858"
+    }
+  },
+  "Logo": "http://batman.bigo.ws/Images/Xd2zyvaz99QCT0gKLjSDLFAaj.png",
+  "Name": "Movies",
+  "Type": "Movies",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1652165666387"
+    }
+  },
+  "position": 2
+},{
+  "_id": {
+    "$oid": "624fe2ca83b5eecccbc9a075"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443863864"
+    }
+  },
+  "Logo": "http://batman.bigo.ws/Images/4wiJFDOOiyBtGdaSJRNsuBgYB.png",
+  "Name": "Series",
+  "Type": "Series",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1652165676251"
+    }
+  },
+  "position": 1
+},{
+  "_id": {
+    "$oid": "624fe2d483b5eecccbc9a076"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651443863867"
+    }
+  },
+  "Logo": "http://batman.bigo.ws/Images/b9WyI0PZ4uW03aQhJbWP2Aeaq.png",
+  "Name": "IPTV",
+  "Type": "Lives",
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1652165681391"
+    }
+  },
+  "position": 0
+}]

@@ -1,0 +1,601 @@
+[{
+  "_id": {
+    "$oid": "62534a0b328e0f7889eb8e24"
+  },
+  "Privileges": {
+    "Navigation": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": true
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": true
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": true
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": true
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": true
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": true
+      },
+      {
+        "Name": "Countries",
+        "Path": "Countries",
+        "permitted": true
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": true
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": true
+      },
+      {
+        "Name": "Settings",
+        "Path": "Settings",
+        "permitted": true
+      }
+    ],
+    "Delete": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": true
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": true
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": true
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": true
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": true
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": true
+      },
+      {
+        "Name": "Countries",
+        "Path": "Countries",
+        "permitted": true
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": true
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": true
+      }
+    ],
+    "Edit": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": true
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": true
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": true
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": true
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": true
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": true
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": true
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": true
+      },
+      {
+        "Name": "Settings",
+        "Path": "Settings",
+        "permitted": true
+      }
+    ],
+    "Upload": [
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": true
+      }
+    ],
+    "Generate": [
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      }
+    ],
+    "Manual": [
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      }
+    ],
+    "Create": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": true
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": true
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": true
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": true
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": true
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": true
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": true
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": true
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": true
+      }
+    ]
+  },
+  "isAdmin": true,
+  "Username": "Admin",
+  "Password": "123qqQ@@**",
+  "CurrentBalance": 1000,
+  "StartedBalance": 1000,
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651442891580"
+    }
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651442891580"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "626d5d0e0d0b6dd2fb33fb82"
+  },
+  "Username": "tiger1",
+  "Password": "321tiger",
+  "CurrentBalance": 3000,
+  "StartedBalance": 3000,
+  "Privileges": {
+    "Navigation": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": false
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": false
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": false
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": false
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": true
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": false
+      },
+      {
+        "Name": "Countries",
+        "Path": "Countries",
+        "permitted": false
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": false
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": false
+      },
+      {
+        "Name": "Settings",
+        "Path": "Settings",
+        "permitted": false
+      }
+    ],
+    "Delete": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": false
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": false
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": false
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": false
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": false
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": false
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": false
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": false
+      },
+      {
+        "Name": "Countries",
+        "Path": "Countries",
+        "permitted": false
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": false
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": false
+      }
+    ],
+    "Edit": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": false
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": false
+      },
+      {
+        "Name": "Activated Clients",
+        "Path": "Clients",
+        "permitted": false
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": false
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": false
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": false
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": false
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": false
+      },
+      {
+        "Name": "Settings",
+        "Path": "Settings",
+        "permitted": false
+      }
+    ],
+    "Upload": [
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": false
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": false
+      }
+    ],
+    "Generate": [
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      }
+    ],
+    "Manual": [
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      }
+    ],
+    "Create": [
+      {
+        "Name": "Categories",
+        "Path": "Categories",
+        "permitted": false
+      },
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      },
+      {
+        "Name": "Serials & Mac Addresses",
+        "Path": "SerialsAndMacs",
+        "permitted": false
+      },
+      {
+        "Name": "Users",
+        "Path": "Users",
+        "permitted": false
+      },
+      {
+        "Name": "Series",
+        "Path": "Series",
+        "permitted": true
+      },
+      {
+        "Name": "Series Episodes",
+        "Path": "SeriesEpisodes",
+        "permitted": true
+      },
+      {
+        "Name": "Sub Categories",
+        "Path": "SubCategories",
+        "permitted": false
+      },
+      {
+        "Name": "Periods",
+        "Path": "Periods",
+        "permitted": false
+      },
+      {
+        "Name": "Movies",
+        "Path": "Movies",
+        "permitted": false
+      },
+      {
+        "Name": "Lives",
+        "Path": "Lives",
+        "permitted": false
+      }
+    ],
+    "Export": [
+      {
+        "Name": "Codes",
+        "Path": "Codes",
+        "permitted": false
+      }
+    ]
+  },
+  "CreatedBy": {
+    "UserCreated": "Admin",
+    "_id": "62534a0b328e0f7889eb8e24"
+  },
+  "CreatedAt": {
+    "$date": {
+      "$numberLong": "1651442891580"
+    }
+  },
+  "UpdatedAt": {
+    "$date": {
+      "$numberLong": "1651442891580"
+    }
+  }
+}]
