@@ -3233,7 +3233,7 @@ router.post("/Delete-Serial", async (req, res) => {
 });
 
 router.post("/Delete-All-Serial", async (req, res) => {
-  const { Token, Code: CodeQuery, DeleteAll } = req.body;
+  const { Token, Code: CodeQuery, DeleteAll, ReceiverType } = req.body;
   const DecodedToken = Verify(Token);
   if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
 
@@ -3279,10 +3279,23 @@ router.post("/Delete-All-Serial", async (req, res) => {
             Code: CodeQuery,
           }
     ).toArray();
+
+    if (ReceiverType) {
+      GetSerialQuery = await SerialsDB.find({
+        ReceiverType: ReceiverType,
+      }).toArray();
+    }
   } else {
     GetSerialQuery = await SerialsDB.find({
       "CreatedBy._id": `${UserIDPriv}`,
     }).toArray();
+
+    if (ReceiverType) {
+      GetSerialQuery = await SerialsDB.find({
+        "CreatedBy._id": `${UserIDPriv}`,
+        ReceiverType: ReceiverType,
+      }).toArray();
+    }
   }
 
   for (let index = 0; index < GetSerialQuery?.length; index++) {
@@ -5081,6 +5094,7 @@ router.post("/Edit-Mass-Serials-By-ReceiverType", async (req, res) => {
   if (ReceiverType) DataToSetForSerial.ReceiverType = ReceiverType;
   if (PeriodToChange) DataToSetForSerial.Period = PeriodToChange;
   if (PeriodToChange) DataToSetForSerial.Points = Points;
+
   console.log(DataToSetForSerial.Points, Points);
 
   const UpdatedSerial = await SerialsDB.updateMany(
