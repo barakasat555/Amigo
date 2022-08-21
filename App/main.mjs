@@ -126,8 +126,8 @@ app.options("*", cors()); // include before other routes
 
 app.use(requestIp.mw());
 
-app.get("/Code/IR", (req, res) => {
-  return res.status(200).json({ Code: "9999999999" })?.end?.();
+app.get("/Code/AM", (req, res) => {
+  return res.status(200).json({ Code: "1515151515" })?.end?.();
 });
 
 app.get("/Code/IX", (req, res) => {
