@@ -33,7 +33,7 @@ const swaggerFileIR = JSON.parse(
 router.get("/data/IR", (req, res) => res.json(swaggerFileIR));
 let swaggerHtmlIR = EditHtml(swaggerUi.generateHTML(swaggerFileIR, options), "IR");
 router.get("/IR", swaggerUi.serveFiles(swaggerFileIR), (req, res) => {
-  if (req?.query?.secret != "IRsapoijehrugwie12") return res.sendStatus(404);
+  if (req?.query?.secret != "nhgtybdew284kiubtx") return res.sendStatus(404);
   res.send(swaggerHtmlIR);
 });
 
