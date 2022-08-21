@@ -110,7 +110,7 @@ const CreateIndexes = async (Collection) => {
   //Create Index for Collection, The index includes keys which is SubCategory and Name and Url if the collection is Live
   if (Collection === Live_Collection) {
     await DB.collection(Collection).createIndex(
-      { SubCategory: 1, Name: 1, Url: 1 },
+      { SubCategory: 1, Url: 1 },
       { unique: true }
     );
   }
