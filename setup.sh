@@ -5,7 +5,7 @@ sleep 2
 DatabasePassword="456987123"
 
 # This is the client Security key for generating the JWT
-ClientJWT_SECRET="OWEHGIOPEWHOGPWEJT4owjfgiphegEFOJWQEFJPOH"
+ClientJWT_SECRET="OWEHGIOPEWHOGPWEJT4owjfhjyf7mnTnqWQEFJPOH"
 
 # This is the admin dashboard Security key for generating the JWT
 AdminJWT_SECRET="oiqeuhfq2bhwiufbuiqwbfiuqbwiuqwbfiuqw12313iujfi1iojefiae"
