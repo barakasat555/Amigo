@@ -8,7 +8,7 @@ DatabasePassword="456987123"
 ClientJWT_SECRET="OWEHGIOPEWHOGPWEJT4owjfgiphegEFOJWQEFJPOH"
 
 # This is the admin dashboard Security key for generating the JWT
-AdminJWT_SECRET="QWLMFMNOWQEOFLPQWKDF12312948ujghioenwfqkmpj#)IUG$@J("
+AdminJWT_SECRET="oiqeuhfq2bhwiufbuiqwbfiuqbwiuqwbfiuqw12313iujfi1iojefiae"
 
 sleep 2
 
