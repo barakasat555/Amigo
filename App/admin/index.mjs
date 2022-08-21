@@ -3645,8 +3645,125 @@ router.post("/Serials-Count", async (req, res) => {
 });
 
 router.post("/Serials-Count-Search", async (req, res) => {
-  const { Token, Skip, Limit, Query } = req.body;
+  let { Token, Skip, Limit, Query, ReceiverType } = req.body;
+
+  console.log("Request 1", ReceiverType);
+
   const DecodedToken = Verify(Token);
+
+  if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
+
+  const { _id: UserIDPriv } = DecodedToken ? DecodedToken : {};
+
+  const UserQueryPriv = await SystemUsersDB.findOne({
+    _id: UserIDPriv ? new ObjectId(UserIDPriv) : UserIDPriv,
+  });
+
+  console.log("Request 2");
+  const { Privileges: UserPrivileges, isAdmin: IsUserAdmin } = UserQueryPriv;
+
+  const {
+    Navigation: UserNavigation,
+    Delete: UserDelete,
+    Edit: UserEdit,
+    Upload: UserUpload,
+    Generate: UserGenerate,
+    Manual: UserManual,
+    Create: UserCreate,
+  } = UserPrivileges;
+
+  let Pass = false;
+  for (let index = 0; index < UserNavigation.length; index++) {
+    let Priv = UserNavigation[index];
+    if (Priv?.Name == "Serials & Mac Addresses") {
+      const { permitted } = Priv;
+      Pass = permitted || IsUserAdmin;
+      break;
+    }
+    Priv = undefined;
+  }
+
+  console.log("Request 3");
+
+  if (!Pass && !IsUserAdmin) return res.status(401).sendStatus(401)?.end?.();
+
+  const AdminObject = IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv };
+
+  console.log(`Limits ${Number(Limit)}, Skip ${Number(Skip)}, Line ${3685}`);
+
+  console.log(AdminObject);
+
+  // console.log({
+  //   ReceiverType: new RegExp(Query, "gim"),
+  //   ...AdminObject,
+  // });
+
+  if (ReceiverType) {
+    const Count = await SerialsDB.count({
+      Serial: new RegExp(Query, "gim"),
+      ReceiverType: ReceiverType ? ReceiverType : new RegExp(Query, "gim"),
+      ...AdminObject,
+    });
+
+    const Serials = await SerialsDB.find({
+      Serial: new RegExp(Query, "gim"),
+      ReceiverType: ReceiverType ? ReceiverType : new RegExp(Query, "gim"),
+      ...AdminObject,
+    })
+      .skip(Number(Skip))
+      .limit(Number(Limit))
+      .sort({ _id: -1 })
+      .toArray();
+    res
+      .status(200)
+      .json({ Count: Count, Serials: Serials, Valid: true })
+      ?.end?.();
+  } else {
+    const Count = await SerialsDB.count({
+      $or: [
+        {
+          Serial: new RegExp(Query, "gim"),
+        },
+        {
+          Code: new RegExp(Query, "gim"),
+        },
+        {
+          ReceiverType: ReceiverType ? ReceiverType : new RegExp(Query, "gim"),
+        },
+      ],
+      ...AdminObject,
+    });
+
+    const Serials = await SerialsDB.find({
+      $or: [
+        {
+          Serial: new RegExp(Query, "gim"),
+        },
+        {
+          Code: new RegExp(Query, "gim"),
+        },
+        {
+          ReceiverType: ReceiverType ? ReceiverType : new RegExp(Query, "gim"),
+        },
+      ],
+      ...AdminObject,
+    })
+      .skip(Number(Skip))
+      .limit(Number(Limit))
+      .sort({ _id: -1 })
+      .toArray();
+    res
+      .status(200)
+      .json({ Count: Count, Serials: Serials, Valid: true })
+      ?.end?.();
+  }
+});
+
+router.post("/Get-Receiver-Types", async (req, res) => {
+  let { Token } = req.body;
+
+  const DecodedToken = Verify(Token);
+
   if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
 
   const { _id: UserIDPriv } = DecodedToken ? DecodedToken : {};
@@ -3680,46 +3797,68 @@ router.post("/Serials-Count-Search", async (req, res) => {
 
   if (!Pass && !IsUserAdmin) return res.status(401).sendStatus(401)?.end?.();
 
-  const Count = await SerialsDB.count({
-    $or: [
-      {
-        Serial: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-      {
-        Code: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-      {
-        ReceiverType: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-    ],
+  const AdminObject = IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv };
+
+  // Get ReceiverType types, as an array of one each type of receiver type
+  const ReceiverTypes = await SerialsDB.distinct("ReceiverType", {
+    ...AdminObject,
   });
-  const Serials = await SerialsDB.find({
-    $or: [
-      {
-        Serial: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-      {
-        Code: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-      {
-        ReceiverType: new RegExp(Query, "gim"),
-        ...(IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv }),
-      },
-    ],
-  })
-    .skip(Skip)
+  res.status(200).json({ ReceiverTypes: ReceiverTypes, Valid: true })?.end?.();
+});
+
+router.post("/Get-Serials-By-Receiver-Type", async (req, res) => {
+  let { Token, Skip, Limit, ReceiverType = "" } = req.body;
+
+  const DecodedToken = Verify(Token);
+
+  if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
+
+  const { _id: UserIDPriv } = DecodedToken ? DecodedToken : {};
+
+  const UserQueryPriv = await SystemUsersDB.findOne({
+    _id: UserIDPriv ? new ObjectId(UserIDPriv) : UserIDPriv,
+  });
+
+  const { Privileges: UserPrivileges, isAdmin: IsUserAdmin } = UserQueryPriv;
+
+  const {
+    Navigation: UserNavigation,
+    Delete: UserDelete,
+    Edit: UserEdit,
+    Upload: UserUpload,
+    Generate: UserGenerate,
+    Manual: UserManual,
+    Create: UserCreate,
+  } = UserPrivileges;
+
+  let Pass = false;
+  for (let index = 0; index < UserNavigation.length; index++) {
+    let Priv = UserNavigation[index];
+    if (Priv?.Name == "Serials & Mac Addresses") {
+      const { permitted } = Priv;
+      Pass = permitted || IsUserAdmin;
+      break;
+    }
+    Priv = undefined;
+  }
+
+  if (!Pass && !IsUserAdmin) return res.status(401).sendStatus(401)?.end?.();
+
+  const AdminObject = IsUserAdmin ? {} : { "CreatedBy._id": UserIDPriv };
+
+  let Query = {};
+  if (!ReceiverType || ReceiverType?.length <= 0) Query = { ...AdminObject };
+  else Query = { ReceiverType, ...AdminObject };
+  const Serials = await SerialsDB.find(Query)
     .limit(Number(Limit))
+    .skip(Number(Skip))
     .sort({ _id: -1 })
     .toArray();
 
+  const Count = await SerialsDB.count(Query);
   res
     .status(200)
-    .json({ Count: Count, Serials: Serials, Valid: true })
+    .json({ Serials: Serials, Count: Count, Valid: true })
     ?.end?.();
 });
 
@@ -4854,6 +4993,155 @@ router.post("/Edit-Serial", async (req, res) => {
         Points: Points,
         CreatedBy: { Username, _id },
         CreatedAt: new Date(),
+      },
+    }
+  );
+
+  res
+    .status(200)
+    .json({
+      Valid: true,
+      Updated: true,
+      PointsDeducted: PointsToDeduct,
+    })
+    ?.end?.();
+});
+
+router.post("/Edit-Mass-Serials-By-ReceiverType", async (req, res) => {
+  const { Token, Period, ReceiverType, ReceiverTypeToEdit, Code } = req.body;
+
+  const DecodedToken = Verify(Token);
+  if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
+
+  const { _id: UserIDPriv, _id } = DecodedToken ? DecodedToken : {};
+
+  const UserQueryPriv = await SystemUsersDB.findOne({
+    _id: UserIDPriv ? new ObjectId(UserIDPriv) : UserIDPriv,
+  });
+
+  const { Privileges: UserPrivileges, isAdmin: IsUserAdmin } = UserQueryPriv;
+
+  const {
+    Navigation: UserNavigation,
+    Delete: UserDelete,
+    Edit: UserEdit,
+    Upload: UserUpload,
+    Generate: UserGenerate,
+    Manual: UserManual,
+    Create: UserCreate,
+  } = UserPrivileges;
+
+  let Pass = false;
+  for (let index = 0; index < UserEdit.length; index++) {
+    let Priv = UserEdit[index];
+    if (Priv?.Name == "Serials & Mac Addresses") {
+      const { permitted } = Priv;
+      Pass = permitted || IsUserAdmin;
+      break;
+    }
+    Priv = undefined;
+  }
+
+  if (!Pass && !IsUserAdmin) return res.status(401).sendStatus(401)?.end?.();
+
+  const SettingsQuery = await SettingsDB.find({}).toArray();
+
+  const { CodeLength = 13 } = SettingsQuery[0] ? SettingsQuery[0] : {};
+
+  if (Code && Code?.length != CodeLength)
+    return res.status(400).sendStatus(400);
+
+  const AdminQuery = await DB.findOne({ _id: new ObjectId(`${_id}`) });
+
+  let GetPeriod = {};
+  let { Points = 0 } = GetPeriod;
+  let { Period: PeriodToChange } = GetPeriod;
+
+  if (Period) {
+    GetPeriod = await PeriodsDB.findOne({ Period: Period });
+    Points = GetPeriod?.Points ? GetPeriod?.Points : 0;
+    PeriodToChange = GetPeriod?.Period ? GetPeriod?.Period : 0;
+  }
+  const SerialsData = await SerialsDB.find({
+    ReceiverType: ReceiverTypeToEdit,
+  }).toArray();
+
+  const PointsToDeduct = Points * SerialsData.length;
+
+  const { CurrentBalance, isAdmin, Privileges, Username } = AdminQuery
+    ? AdminQuery
+    : {};
+
+  const NewDateToExpire = new Date();
+  //PeriodToChange is a number of days, Add them to NewDateToExpire
+  NewDateToExpire.setDate(NewDateToExpire.getDate() + PeriodToChange);
+
+  const DataToSetForSerial = {};
+  if (Code) DataToSetForSerial.Code = Code;
+  if (ReceiverType) DataToSetForSerial.ReceiverType = ReceiverType;
+  if (PeriodToChange) DataToSetForSerial.Period = PeriodToChange;
+  if (PeriodToChange) DataToSetForSerial.Points = Points;
+  console.log(DataToSetForSerial.Points, Points);
+
+  const UpdatedSerial = await SerialsDB.updateMany(
+    {
+      ReceiverType: ReceiverTypeToEdit,
+    },
+    {
+      $set: {
+        ...DataToSetForSerial,
+      },
+    }
+  );
+
+  const SerialsToUpdate = [];
+
+  for (let index = 0; index < SerialsData.length; index++) {
+    const { _id, Serial } = SerialsData[index];
+
+    SerialsToUpdate.push({ SerialNumber: Serial });
+    SerialsToUpdate.push({ MacAddress: Serial });
+  }
+
+  console.log(SerialsToUpdate);
+
+  if (SerialsToUpdate.length <= 0)
+    return res.status(404).json({
+      Valid: false,
+    });
+
+  const serialBeforeEdit = SerialsData[0];
+
+  const PointsAfterRefund = serialBeforeEdit?.Points
+    ? CurrentBalance + serialBeforeEdit?.Points * SerialsData.length
+    : CurrentBalance + 0;
+
+  if (!isAdmin) return res.status(400).sendStatus(400);
+
+  const NewCurrentBalance = PointsAfterRefund - PointsToDeduct;
+
+  if (PointsToDeduct && PointsToDeduct > 0) {
+    await DB.updateOne(
+      { _id: new ObjectId(`${_id}`) },
+      { $set: { CurrentBalance: NewCurrentBalance } }
+    );
+  }
+
+  if (Code) serialBeforeEdit.Code = Code;
+  if (PeriodToChange) serialBeforeEdit.Period = PeriodToChange;
+  if (PeriodToChange) serialBeforeEdit.Points = Points;
+  if (PeriodToChange) serialBeforeEdit.ExpireAt = NewDateToExpire;
+
+  delete serialBeforeEdit._id;
+
+  // console.log(serialBeforeEdit);
+  const ClientsUpdate = await ClientsDB.updateMany(
+    {
+      $or: SerialsToUpdate,
+    },
+    {
+      $set: {
+        ...serialBeforeEdit,
       },
     }
   );
