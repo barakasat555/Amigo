@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "version": "1.0.0",
-    "title": "BIGO Iran API",
+    "title": "Amigo API",
     "description":
       "I see your trying to access this interactive API Testing, Here you go!, I hope it makes your life easier <3, \nEvery request should contain a unique tag header that is randomly generated and encrypted on the receiver using JWT with the key SecretCode \nThis is the only way to verify the request. The key should be kept exclusively in the receiver, not in the API. Ensure that the encrypted text is randomly generated and unique for each request. \nAnd please keep in mind that there will be a message key for every request that will have the message for the receiver user, \nso it should show if an error status code is present. The idea of the API is that you get the categories, which are the main categories to choose from, \nand then there are the sub-categories inside, shown on the left, normally. \nThen there are the items. To watch On click, you create a session, and then you use the session API to return a movie or live or series, to watch it. \nAnd each session can be used only once. Use the tag header to verify the request."
   },
