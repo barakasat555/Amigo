@@ -27,7 +27,7 @@ const LiveViews_Collection = "LiveViews";
 
 const CreateIndexes = async (Collection) => {
   await DB.collection(Collection).createIndex(
-    { SubCategory: 1, Name: 1, Url: 1 },
+    { SubCategory: 1, Name: 1 },
     { unique: true }
   );
 
