@@ -2351,6 +2351,121 @@ router.post("/Codes-Count-Search", async (req, res) => {
   Codes = undefined;
 });
 
+import XLSX from "xlsx";
+
+const XLSXColumnNames = [
+  "Code",
+  "Mac address",
+  "Serial number",
+  "Created at",
+  "Expire at",
+  "Blocked",
+  "IP Address",
+  "Created by",
+  "Period",
+  "Points",
+  "Country code",
+  "Subscription type",
+  "Number",
+];
+
+router.get("/Download-Expired-Clients", async (req, res) => {
+  const { Token, type = "excel" } = req.query;
+  const DecodedToken = Verify(Token);
+  if (!DecodedToken) return res.status(401).sendStatus(401)?.end?.();
+  const { _id: UserIDPriv } = DecodedToken ? DecodedToken : {};
+
+  const UserQueryPriv = await SystemUsersDB.findOne({
+    _id: UserIDPriv ? new ObjectId(UserIDPriv) : UserIDPriv,
+  });
+
+  const { Privileges: UserPrivileges, isAdmin: IsUserAdmin } = UserQueryPriv;
+
+  const {
+    Navigation: UserNavigation,
+    Delete: UserDelete,
+    Edit: UserEdit,
+    Upload: UserUpload,
+    Generate: UserGenerate,
+    Manual: UserManual,
+    Create: UserCreate,
+  } = UserPrivileges;
+
+  let Pass = false;
+  for (let index = 0; index < UserNavigation.length; index++) {
+    let Priv = UserNavigation[index];
+    if (Priv?.Name == "Activated Clients") {
+      const { permitted } = Priv;
+      Pass = permitted || IsUserAdmin;
+      break;
+    }
+    Priv = undefined;
+  }
+
+  if ((!Pass && !IsUserAdmin) || !IsUserAdmin)
+    return res.status(401).sendStatus(401)?.end?.();
+
+  const ClientsData = await ClientsDB.find({
+    ExpireAt: { $lte: new Date() },
+  }).toArray();
+
+  let Clients = Array.isArray(ClientsData) ? ClientsData : [];
+
+  if (type?.toLowerCase?.()?.includes?.("excel")) {
+    const NewData = Clients?.map?.(
+      ({
+        Code = "",
+        MacAddress = "",
+        SerialNumber = "",
+        CreatedAt = new Date(),
+        ExpireAt = new Date(),
+        Blocked = false,
+        IP = "",
+        CreatedBy = {},
+        Period = {},
+        Points = 0,
+        CountryCode = "",
+        SubscriptionType = "",
+        Number = 0,
+      }) => {
+        return [
+          Code,
+          MacAddress,
+          SerialNumber,
+          CreatedAt,
+          ExpireAt,
+          Blocked ? "Yes" : "No",
+          IP,
+          CreatedBy?.Username,
+          Period?.Period,
+          Points,
+          CountryCode,
+          SubscriptionType,
+          Number,
+        ];
+      }
+    );
+
+    const wb = XLSX.utils.book_new();
+    const WorkSheetData = [XLSXColumnNames, ...NewData];
+    const ws = XLSX.utils.aoa_to_sheet(WorkSheetData, { cellDates: true });
+    // console.log(ws)
+    XLSX.utils.book_append_sheet(wb, ws, "Data");
+    //Convert xlsx to buffer
+    const buffer = XLSX.write(wb, { type: "buffer", bookType: "xlsx" });
+
+    //Convert xls to binary and send it to the client to download
+    res.setHeader(
+      "Content-Type",
+      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+    );
+    res.setHeader("Content-Disposition", "attachment; filename=data.xlsx");
+    res.send(buffer).end?.();
+  } else {
+    res.status(200).json(Clients);
+  }
+});
+
 router.post("/Clients-Count", async (req, res) => {
   const { Token, Skip, Limit } = req.body;
   const DecodedToken = Verify(Token);
@@ -2517,25 +2632,41 @@ router.post("/Clients-Count-Search", async (req, res) => {
 
   let Count = 0;
   let Clients = [];
+  console.log(Query?.toLowerCase?.(), "Search Query");
   if (IsUserAdmin) {
-    Count = await ClientsDB.count({
-      $or: [
-        { SerialNumber: new RegExp(Query, "gim") },
-        { Code: new RegExp(Query, "gim") },
-        { MacAddress: new RegExp(Query, "gim") },
-      ],
-    });
-    Clients = await ClientsDB.find({
-      $or: [
-        { SerialNumber: new RegExp(Query, "gim") },
-        { Code: new RegExp(Query, "gim") },
-        { MacAddress: new RegExp(Query, "gim") },
-      ],
-    })
-      .skip(Skip)
-      .limit(Number(Limit))
-      .sort({ _id: -1 })
-      .toArray();
+    if (Query?.toLowerCase?.().includes?.("expired")) {
+      Count = await ClientsDB.count({
+        ExpireAt: { $lte: new Date() },
+      });
+      //ExpireAt
+      Clients = await ClientsDB.find({
+        ExpireAt: { $lte: new Date() },
+      })
+        .skip(Skip)
+        .limit(Number(Limit))
+        .sort({ _id: -1 })
+        .toArray();
+    } else {
+      Count = await ClientsDB.count({
+        $or: [
+          { SerialNumber: new RegExp(Query, "gim") },
+          { Code: new RegExp(Query, "gim") },
+          { MacAddress: new RegExp(Query, "gim") },
+        ],
+      });
+
+      Clients = await ClientsDB.find({
+        $or: [
+          { SerialNumber: new RegExp(Query, "gim") },
+          { Code: new RegExp(Query, "gim") },
+          { MacAddress: new RegExp(Query, "gim") },
+        ],
+      })
+        .skip(Skip)
+        .limit(Number(Limit))
+        .sort({ _id: -1 })
+        .toArray();
+    }
 
     const ClientClone = [];
     for (let index = 0; index < Clients.length; index++) {
@@ -5290,7 +5421,7 @@ router.post("/Create-Codes", async (req, res) => {
       Limit: isGenerate ? 1 : Number(Limit),
     });
 
-    if (!isGenerate) {
+//     if (!isGenerate) {
       const NewCodeID = NewCode.insertedId;
 
       for (let indexj = 0; indexj < AllowedSubCategories.length; indexj++) {
@@ -5302,7 +5433,7 @@ router.post("/Create-Codes", async (req, res) => {
         );
       }
     }
-  }
+//   }
 
   res
     .status(200)
@@ -5404,7 +5535,8 @@ router.post("/Edit-Code", async (req, res) => {
 
   const { CodeLength = 13 } = SettingsQuery[0] ? SettingsQuery[0] : {};
 
-  if (Value?.length != CodeLength) return res.status(400).sendStatus(400);
+//   console.log("Value?.length, CodeLength", Value?.length, CodeLength)
+//   if (Value?.length != CodeLength) return res.status(400).sendStatus(400);
 
   const AdminQuery = await DB.findOne({ _id: new ObjectId(_id) });
 
@@ -5437,6 +5569,7 @@ router.post("/Edit-Code", async (req, res) => {
     }
   );
 
+  console.log("PointsAfterRefund, PointsToDeduct, isAdmin", PointsAfterRefund, PointsToDeduct, isAdmin)
   if (PointsAfterRefund < PointsToDeduct && !isAdmin)
     return res.status(400).sendStatus(400);
   const NewCurrentBalance = PointsAfterRefund - PointsToDeduct;
