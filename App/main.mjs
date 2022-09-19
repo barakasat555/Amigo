@@ -103,7 +103,7 @@ app.get(
   }
 );
 
-app.use(express.json({ limit: "100mb" }));
+app.use(express.json({ limit: "5gb" }));
 
 import morgan from "morgan";
 app.use(morgan("dev"));
