@@ -25,7 +25,7 @@ const sleep = async (ms) => {
 
 const GetStatusCode = async (url, ResourceID) => {
   if (url == "" || !url || !ResourceID) {
-    IsAValidStream("Unset", "");
+    IsAValidStream("Unset", "", 0);
   } else {
     const Headers = {};
     Headers["Cache-Control"] = "no-cache";
@@ -51,14 +51,16 @@ const GetStatusCode = async (url, ResourceID) => {
 
     // console.log(response.status);
     if (
-      response.headers.get("content-type")?.toLowerCase?.().includes?.("video")
-      // ||
-      // response.status == 200 ||
-      // response.status == 206
+      response.headers
+        .get("content-type")
+        ?.toLowerCase?.()
+        .includes?.("video") ||
+      response.status == 200 ||
+      response.status == 206
     ) {
-      IsAValidStream(true, url, ResourceID);
+      IsAValidStream(true, url, ResourceID, response.status);
     } else {
-      IsAValidStream(false, url, ResourceID);
+      IsAValidStream(false, url, ResourceID, response.status);
     }
     try {
       controller.abort();
@@ -70,7 +72,7 @@ const GetStatusCode = async (url, ResourceID) => {
 let Working = 0;
 let Fail = 0;
 
-const IsAValidStream = async (IsValid, url, ResourceID) => {
+const IsAValidStream = async (IsValid, url, ResourceID, responseStatus) => {
   if (IsValid == "Unset") return false;
 
   if (IsValid) {
@@ -118,7 +120,7 @@ const IsAValidStream = async (IsValid, url, ResourceID) => {
         }
       );
     }
-    console.error(`InActive`, Times, IsValid, url, ResourceID);
+    console.error(`InActive`, Times, IsValid, url, ResourceID, `HTTP CODE: ${responseStatus}`);
   }
 
   const FailedLives = await LiveDB.count({ Status: false });
@@ -161,7 +163,7 @@ while (CanRequest) {
     const ResourceLink = element?.Url;
     const ResourceID = element?._id;
 
-    await sleep(50);
+    await sleep(100);
     // console.log(ResourcesLink);
     GetStatusCode(ResourceLink, ResourceID);
   }
