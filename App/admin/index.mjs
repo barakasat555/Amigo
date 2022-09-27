@@ -3669,35 +3669,75 @@ router.post("/Points", async (req, res) => {
 
   const { CurrentBalance, StartedBalance, isAdmin, Username } = Admin;
 
-  let Codes = await CodesDB.find({
-    "CreatedBy.Username": `${Username}`,
-  }).toArray();
+  // let Codes = await CodesDB.find({
+  //   "CreatedBy.Username": `${Username}`,
+  // }).toArray();
 
-  let Clients = await ClientDB.find({
-    "CreatedBy.Username": `${Username}`,
-    SubscriptionType: "Serial",
-  }).toArray();
+  const pipelineCodes = [
+    { $match: { "CreatedBy.Username": `${Username}` } },
+    { $group: { _id: null, count: { $sum: "$Points" } } },
+  ];
 
-  let Serials = await SerialsDB.find({
-    "CreatedBy.Username": `${Username}`,
-    Refundable: true,
-  }).toArray();
+  const PointsSumCodes = await SerialsDB.aggregate(pipelineCodes).toArray();
+  const CodesSum = PointsSumCodes[0]?.count;
+
+  // let Clients = await ClientDB.find({
+  //   "CreatedBy.Username": `${Username}`,
+  //   SubscriptionType: "Serial",
+  // }).toArray();
+
+  const pipelineClients = [
+    {
+      $match: {
+        "CreatedBy.Username": `${Username}`,
+        SubscriptionType: "Serial",
+      },
+    },
+    { $group: { _id: null, count: { $sum: "$Points" } } },
+  ];
+
+  const PointsSumClients = await SerialsDB.aggregate(pipelineClients).toArray();
+  const ClientsSum = PointsSumClients[0]?.count;
+
+  // let Serials = await SerialsDB.find({
+  //   "CreatedBy.Username": `${Username}`,
+  //   Refundable: true,
+  // }).toArray();
 
   let Spent = 0;
-  for (let index = 0; index < Codes.length; index++) {
-    const { Points = 0 } = Codes[index];
-    Spent += Points;
+
+  const pipeline = [
+    { $match: { "CreatedBy.Username": `${Username}`, Refundable: true } },
+    { $group: { _id: null, count: { $sum: "$Points" } } },
+  ];
+
+  const PointsSumSerial = await SerialsDB.aggregate(pipeline).toArray();
+  const SerialsSum = PointsSumSerial[0]?.count;
+
+  if (!isNaN(CodesSum)) {
+    Spent += CodesSum;
+  }
+  if (!isNaN(ClientsSum)) {
+    Spent += ClientsSum;
+  }
+  if (!isNaN(SerialsSum)) {
+    Spent += SerialsSum;
   }
 
-  for (let index = 0; index < Clients.length; index++) {
-    const { Points = 0 } = Clients[index];
-    Spent += Points;
-  }
+  // for (let index = 0; index < Codes.length; index++) {
+  //   const { Points = 0 } = Codes[index];
+  //   Spent += Points;
+  // }
 
-  for (let index = 0; index < Serials.length; index++) {
-    const { Points = 0 } = Serials[index];
-    Spent += Points;
-  }
+  // for (let index = 0; index < Clients.length; index++) {
+  //   const { Points = 0 } = Clients[index];
+  //   Spent += Points;
+  // }
+
+  // for (let index = 0; index < Serials.length; index++) {
+  //   const { Points = 0 } = Serials[index];
+  //   Spent += Points;
+  // }
 
   res
     .status(200)
@@ -3712,9 +3752,9 @@ router.post("/Points", async (req, res) => {
     ?.end?.();
 
   Admin = undefined;
-  Codes = undefined;
-  Clients = undefined;
-  Serials = undefined;
+  // Codes = undefined;
+  // Clients = undefined;
+  // Serials = undefined;
 });
 
 router.post("/Privileges", async (req, res) => {
@@ -5421,19 +5461,19 @@ router.post("/Create-Codes", async (req, res) => {
       Limit: isGenerate ? 1 : Number(Limit),
     });
 
-//     if (!isGenerate) {
-      const NewCodeID = NewCode.insertedId;
+    //     if (!isGenerate) {
+    const NewCodeID = NewCode.insertedId;
 
-      for (let indexj = 0; indexj < AllowedSubCategories.length; indexj++) {
-        const element = AllowedSubCategories[indexj];
-        const ID = element?._id;
-        await SubCategoriesDB.updateOne(
-          { _id: new ObjectId(`${ID}`) },
-          { $push: { SubCategoriesAllowed: `${NewCodeID}` } }
-        );
-      }
+    for (let indexj = 0; indexj < AllowedSubCategories.length; indexj++) {
+      const element = AllowedSubCategories[indexj];
+      const ID = element?._id;
+      await SubCategoriesDB.updateOne(
+        { _id: new ObjectId(`${ID}`) },
+        { $push: { SubCategoriesAllowed: `${NewCodeID}` } }
+      );
     }
-//   }
+  }
+  //   }
 
   res
     .status(200)
@@ -5535,8 +5575,8 @@ router.post("/Edit-Code", async (req, res) => {
 
   const { CodeLength = 13 } = SettingsQuery[0] ? SettingsQuery[0] : {};
 
-//   console.log("Value?.length, CodeLength", Value?.length, CodeLength)
-//   if (Value?.length != CodeLength) return res.status(400).sendStatus(400);
+  //   console.log("Value?.length, CodeLength", Value?.length, CodeLength)
+  //   if (Value?.length != CodeLength) return res.status(400).sendStatus(400);
 
   const AdminQuery = await DB.findOne({ _id: new ObjectId(_id) });
 
@@ -5569,7 +5609,12 @@ router.post("/Edit-Code", async (req, res) => {
     }
   );
 
-  console.log("PointsAfterRefund, PointsToDeduct, isAdmin", PointsAfterRefund, PointsToDeduct, isAdmin)
+  console.log(
+    "PointsAfterRefund, PointsToDeduct, isAdmin",
+    PointsAfterRefund,
+    PointsToDeduct,
+    isAdmin
+  );
   if (PointsAfterRefund < PointsToDeduct && !isAdmin)
     return res.status(400).sendStatus(400);
   const NewCurrentBalance = PointsAfterRefund - PointsToDeduct;
