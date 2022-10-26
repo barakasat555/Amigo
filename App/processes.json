@@ -10,7 +10,7 @@
                 "PORT": 3000,
                 "NODE_ENV": "production",
                 "Backup": 1,
-                "MONGODB_IP": "localhost",
+                "MONGODB_IP": "0.0.0.0",
                 "MONGODB_PORT": 27017,
                 "MONGODB_DB": "Main",
                 "MONGODB_USER": "admin",
@@ -30,7 +30,7 @@
             "env": {
                 "PORT": 5001,
                 "NODE_ENV": "production",
-                "MONGODB_IP": "localhost",
+                "MONGODB_IP": "0.0.0.0",
                 "MONGODB_PORT": 27017,
                 "MONGODB_DB": "Main",
                 "MONGODB_USER": "admin",
@@ -50,7 +50,7 @@
             "env": {
                 "PORT": 5002,
                 "NODE_ENV": "production",
-                "MONGODB_IP": "localhost",
+                "MONGODB_IP": "0.0.0.0",
                 "MONGODB_PORT": 27017,
                 "MONGODB_DB": "Main",
                 "MONGODB_USER": "admin",
